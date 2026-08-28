@@ -1,7 +1,7 @@
 class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
-        int n = matrix.size();
+        int n = matrix.size(); //imp
         int lo = matrix[0][0];
         int hi = matrix[n - 1][n - 1];
         while (lo < hi) {
