@@ -6,8 +6,6 @@ public:
             count++;
             if(i >=1000000)
                 count++;
-            if(i >=1000000000)
-                count++;
         }
         return count;
     }
