@@ -6,7 +6,7 @@ public:
         string ans="";
         for(int i=0;i<num;i++){
             int digit=min(9,sum);
-            ans+=to_string(digit);
+            ans+=(digit + '0');
             sum-=digit;
         }
         return ans;
