@@ -11,7 +11,7 @@ public:
             }else if(nums[i]<nums[i-1]){
                 dec++;
                 inc=1;
-            }else{
+            }else{ //**
                 inc=1;
                 dec=1;
             }
